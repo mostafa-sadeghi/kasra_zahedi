@@ -31,22 +31,22 @@
 # print(mylist)
 
 
-names = ['ali', 'ramtin', 'reza', 'ramtin', 'cyrus', 'reza']
-print(names.count('ramtin'))
+# names = ['ali', 'ramtin', 'reza', 'ramtin', 'cyrus', 'reza']
+# print(names.count('ramtin'))
 
 # names2 = names.copy()
 # print(names2)
 # names.clear()
 # print(names2)
 # print(names)
-names.extend(['item1', '1'])
-names.insert(2, "maryam")
-names.reverse()
-names.sort()
+# names.extend(['item1', '1'])
+# names.insert(2, "maryam")
+# names.reverse()
+# names.sort()
 
-print('a' < 'b')
-print(ord('a'))
-print(ord('b'))
-print(ord('1'))
+# print('a' < 'b')
+# print(ord('a'))
+# print(ord('b'))
+# print(ord('1'))
 
-print(names)
+# print(names)

@@ -56,3 +56,17 @@
 #     print(math.sqrt(number))
 
 
+# total = 0
+# for i in range(5):
+#     number = float(input('enter a number:> '))
+#     total = total + number
+
+# print("total is:", total)
+
+# numbers = []
+# for i in range(5):
+#     number = float(input('enter a number:> '))
+#     numbers.append(number)
+
+# print("total is:", sum(numbers))
+# print("total is:", sum([1.2,2.3]))

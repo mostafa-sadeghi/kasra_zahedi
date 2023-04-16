@@ -54,19 +54,43 @@
 
 # for number in {4,9,16,32}:
 #     print(math.sqrt(number))
+from array import array
+import sys
+import time
+
+t1 = time.time()
+print("time before running first experiment:", t1)
+total = 0
+for i in range(5_000):
+
+    # number = float(input('enter a number:> '))
+    total = total + i
+
+print("total is:", total)
+print("size of total as int: ", sys.getsizeof(total))
+t2 = time.time()
+print("time after running first experiment:", t2)
+print("time diff", t2-t1)
 
 
-# total = 0
-# for i in range(5):
-#     number = float(input('enter a number:> '))
-#     total = total + number
+t1 = time.time()
+print("time before running second experiment:", t1)
 
-# print("total is:", total)
+numbers = array('i')
+for i in range(5_000):
+    # number = float(input('enter a number:> '))
+    numbers.append(i)
 
-# numbers = []
-# for i in range(5):
-#     number = float(input('enter a number:> '))
-#     numbers.append(number)
-
-# print("total is:", sum(numbers))
+print("total is:", sum(numbers))
 # print("total is:", sum([1.2,2.3]))
+
+
+print("size of numbers as list: ", sys.getsizeof(numbers))
+t2 = time.time()
+print("time after running second experiment:", t2)
+print("time diff", t2-t1)
+
+
+x = array('i')
+# print(x[0])
+# x.append(4)

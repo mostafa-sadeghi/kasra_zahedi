@@ -82,7 +82,13 @@ p.forward(100)
 p.left(120)
 p.forward(100)
 p.left(120)
+
 p.end_fill()
+p.penup()
+p.goto(100, -120)
+
+p.write('hello', font=('Arial', 25))
+p.hideturtle()
 s.exitonclick()
 
 # square

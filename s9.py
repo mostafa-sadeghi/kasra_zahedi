@@ -9,7 +9,7 @@ GREEN = (0, 255, 0)
 RED = (255, 0, 0)
 
 size = (700, 500)
-screen = pygame.display.set_mode(size)
+screen = pygame.display.set_mode()
 pygame.display.set_caption("OUR First pygame app")
 screen.fill(WHITE)
 clock = pygame.time.Clock()
@@ -24,6 +24,8 @@ while done:
             done = False
 
         elif event.type == pygame.KEYDOWN:
+            if event.key == pygame.K_ESCAPE:
+                done = False
             print("User pressed a key")
         elif event.type == pygame.KEYUP:
             print("User released a key")
@@ -49,5 +51,5 @@ while done:
 
     pygame.display.flip()
     clock.tick(200)
-
+pygame.quit()
 # exercise : کشیدن ده ضربدر

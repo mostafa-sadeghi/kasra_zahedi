@@ -23,17 +23,20 @@ import tkinter as tk
 from tkinter import ttk
 
 
-def greet():
+# def greet():
     print("hello")
 
 # tkinter._test()
 
 
-root = tk.Tk()
-ttk.Label(root, text="سلام", background="red", anchor="center", padding=20, borderwidth=50, relief="sunken",
-          foreground="black", font=("B Titr Bold", 24, 'bold', 'underline')).pack()
+# root = tk.Tk()
+# ttk.Label(root, text="سلام", background="red", anchor="center", padding=20, borderwidth=50, relief="sunken",
+#           foreground="black", font=("B Titr Bold", 24, 'bold', 'underline')).pack()
 
-greet_button = ttk.Button(
-    root, text="Greet", cursor="hand2", padding=20, width=70, command=greet)
-greet_button.pack()
-root.mainloop()
+# greet_button = ttk.Button(
+#     root, text="Greet", cursor="hand2", padding=20, command=greet)
+# greet_button.pack(side="left", fill="both",expand=True)
+
+# quit_button = ttk.Button(
+#     root, text="Quit", command=root.destroy, cursor="hand2", padding=20).pack(side="left", fill="both",expand=True)
+# root.mainloop()

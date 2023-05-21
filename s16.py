@@ -18,11 +18,11 @@ root = tk.Tk()
 # def print_current_selection():
 #     print()
 
-image = Image.open("orangee.png")
-tk_image = ImageTk.PhotoImage(image)
+# image = Image.open("orangee.png")
+# tk_image = ImageTk.PhotoImage(image)
 
-check_button = ttk.Checkbutton(
-    root, text="Pizza", image=tk_image, compound="right", command=lambda: print("hello"))
-check_button.pack()
+# check_button = ttk.Checkbutton(
+#     root, text="Pizza", image=tk_image, compound="right", command=lambda: print("hello"))
+# check_button.pack()
 # check_button["state"] = "disabled"  # "normal"
-root.mainloop()
+# root.mainloop()
